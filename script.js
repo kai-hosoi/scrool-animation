@@ -1,4 +1,5 @@
-const targetElemnt = doxument.querySelectorAll(".animationTarget");
-for (let i = 0; i < targetElemnt.length; i++){
-    const getElemntDistance = targetElemnt[i].getBoundingClientRect().top
-    console(getElemntDistance) }
+const targetElement = document.querySelectorAll(".animationTarget");
+for (let i = 0; i < targetElement.length; i++){
+    const getElementDistance = targetElement[i].getBoundingClientRect().top
+    console(getElementDistance)
+ }
