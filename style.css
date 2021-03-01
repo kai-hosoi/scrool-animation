@@ -29,6 +29,12 @@ main{
 
 .contents li{
     position: relative;
+    opacity: 0;
+    transition: 1s;
+}
+
+.contents li.show{
+    opacity: 1;
 }
 
 .contents li:not(:first-of-type){
